@@ -1,0 +1,47 @@
+Angela: User@ACER_E5 MINGW64 ~/Documents/SCHULE/Angela_Amacna4AI/ITP/TravelApp/git-demo/Travel-App (master)
+	$ git checkout -b angela
+Switched to a new branch 'angela'
+M       text2.txt
+
+User@ACER_E5 MINGW64 ~/Documents/SCHULE/Angela_Amacna4AI/ITP/TravelApp/git-demo/Travel-App (angela)
+	$ git status
+On branch angela
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   text2.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+User@ACER_E5 MINGW64 ~/Documents/SCHULE/Angela_Amacna4AI/ITP/TravelApp/git-demo/Travel-App (angela)
+	$ git add .
+
+User@ACER_E5 MINGW64 ~/Documents/SCHULE/Angela_Amacna4AI/ITP/TravelApp/git-demo/Travel-App (angela)
+	$ git commit -m "change"
+[angela 46a49c0] change
+ 1 file changed, 1 insertion(+)
+
+
+User@ACER_E5 MINGW64 ~/Documents/SCHULE/Angela_Amacna4AI/ITP/TravelApp/git-demo/Travel-App (angela)
+	$ git push
+fatal: The current branch angela has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin angela
+
+
+User@ACER_E5 MINGW64 ~/Documents/SCHULE/Angela_Amacna4AI/ITP/TravelApp/git-demo/Travel-App (angela)
+	$ git push --set-upstream origin angela
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 282 bytes | 141.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+remote:
+remote: Create a pull request for 'angela' on GitHub by visiting:
+remote:      https://github.com/sarah00111/Travel-App/pull/new/angela
+remote:
+To https://github.com/sarah00111/Travel-App.git
+ * [new branch]      angela -> angela
+Branch 'angela' set up to track remote branch 'angela' from 'origin'.
