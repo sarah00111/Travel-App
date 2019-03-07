@@ -15,14 +15,6 @@ Changes not staged for commit:
 no changes added to commit (use "git add" and/or "git commit -a")
 
 User@ACER_E5 MINGW64 ~/Documents/SCHULE/Angela_Amacna4AI/ITP/TravelApp/git-demo/Travel-App (angela)
-	$ git commit -m "change"
-On branch angela
-Changes not staged for commit:
-        modified:   text2.txt
-
-no changes added to commit
-
-User@ACER_E5 MINGW64 ~/Documents/SCHULE/Angela_Amacna4AI/ITP/TravelApp/git-demo/Travel-App (angela)
 	$ git add .
 
 User@ACER_E5 MINGW64 ~/Documents/SCHULE/Angela_Amacna4AI/ITP/TravelApp/git-demo/Travel-App (angela)
