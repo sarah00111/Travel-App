@@ -1,0 +1,15 @@
+<FlexboxLayout>
+    <!---StackLayout verwendet, damit FlexLayout folgende Kinder hat: StackLayout & Label
+        damit bleibt das StackLayout bei space-between oben und das Label unten -->
+    <StackLayout>
+            <Label text="Das ist eine Demo"></Label>
+            <TextField  [(ngModel)]='textFielValue' hint="Enter a Adress..."></TextField>
+        
+            <!--(tap) = ng-click-->
+            <Button text="Tap to get to new Page" (tap)="onButtonTap()"></Button>
+    </StackLayout>
+    
+
+    <!--[text] = ng-bind-->
+    <Label class="output" [text]="labelInput"></Label>
+</FlexboxLayout>
