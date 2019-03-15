@@ -1,0 +1,14 @@
+<ActionBar title="Home" class="action-bar">
+</ActionBar>
+
+
+	<ScrollView>
+        <StackLayout orientation="vertical">
+            <GridLayout>
+                <TextField [(ngModel)]="textFieldValue" hint="Enter any text you'd like" horizontalAlignment="left"></TextField>
+                <Button class="redButton" text="Submit" (tap)="onButtonTap()" horizontalAlignment="right"></Button>
+            </GridLayout>
+                <Label [text]="output" horizontalAlignment="right" verticalAlignment="bottom"></Label>
+        </StackLayout>
+
+    </ScrollView>
