@@ -1,13 +1,19 @@
+<!-- Die ActionBar erstellt -->
 <ActionBar title="Home" class="action-bar">
 </ActionBar>
 
-
+<!-- Damit die Seite scrollbar ist -->
 	<ScrollView>
+	<!-- Die Elemente sind vertical angeordnet -->
         <StackLayout orientation="vertical">
+		<!-- Ein Gridlayout für die Elemente wird angewendet -->
             <GridLayout>
+			<!-- ein inputfeld für die Adresse -->
                 <TextField [(ngModel)]="textFieldValue" hint="Enter any text you'd like" horizontalAlignment="left"></TextField>
+				<!-- Submitbutton -->
                 <Button class="redButton" text="Submit" (tap)="onButtonTap()" horizontalAlignment="right"></Button>
             </GridLayout>
+			<!-- Ausgabe -->
                 <Label [text]="output" horizontalAlignment="right" verticalAlignment="bottom"></Label>
         </StackLayout>
 
