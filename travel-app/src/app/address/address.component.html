@@ -10,6 +10,8 @@
         <TextField  [(ngModel)]='inputCity' hint="Vienna"></TextField>
     </FlexLayout>
 
+    <Label [text]="output"></Label>
+
     <!--(tap) = ng-click-->
     <Button text="Tap to get to new Page" (tap)="onButtonTap()"></Button>
 </StackLayout>

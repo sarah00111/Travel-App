@@ -1,5 +1,6 @@
 import { NgModule, NO_ERRORS_SCHEMA } from "@angular/core";
 import { NativeScriptModule } from "nativescript-angular/nativescript.module";
+import { HttpClientModule } from '@angular/common/http';
 
 //alle Komponenten einbinden, die man verwendet
 //!ACHTUNG: keine Dateiendung!
@@ -18,7 +19,8 @@ import { NativeScriptFormsModule } from "nativescript-angular/forms";
     imports: [
         NativeScriptModule,
         //eindinden, wenn man ngModel verwenden will
-        NativeScriptFormsModule
+        NativeScriptFormsModule,
+        HttpClientModule
     ],
     declarations: [
         //alle Komponenten einbinden, die man verwenden will
