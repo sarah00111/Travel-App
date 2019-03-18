@@ -1,3 +1,15 @@
 <StackLayout>
-   <label text="Hallo"></label> 
+    <Label text="Address"></Label>
+    <TextField  [(ngModel)]='inputAddress' hint="Enter a Address..."></TextField>
+
+    <FlexLayout>
+        <Label text="Post Code"></Label>
+        <TextField  [(ngModel)]='inputPostCode' hint="1210"></TextField>
+
+        <Label text="City"></Label>
+        <TextField  [(ngModel)]='inputCity' hint="Vienna"></TextField>
+    </FlexLayout>
+
+    <!--(tap) = ng-click-->
+    <Button text="Tap to get to new Page" (tap)="onButtonTap()"></Button>
 </StackLayout>
