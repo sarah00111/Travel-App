@@ -5,7 +5,7 @@ import { NativeScriptModule } from "nativescript-angular/nativescript.module";
 //!ACHTUNG: keine Dateiendung!
 import { AppComponent } from "./app.component";
 import { Route2PointsComponent } from "./route-2-points/route-2-points..component";
-
+import { AddressComponent } from "./address/address.component";
 
 //muss man einbinden, um ngModel verwenden zu können, außerdem: siehe imports
 import { NativeScriptFormsModule } from "nativescript-angular/forms";
@@ -23,7 +23,8 @@ import { NativeScriptFormsModule } from "nativescript-angular/forms";
     declarations: [
         //alle Komponenten einbinden, die man verwenden will
         AppComponent,
-        Route2PointsComponent
+        Route2PointsComponent,
+        AddressComponent
     ],
     providers: [],
     schemas: [
